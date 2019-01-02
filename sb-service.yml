@@ -12,7 +12,7 @@ spring:
     hibernate: 
       ddl-auto: update
  
-greetingLanguage: English / spring config test2244567dfe
+greetingLanguage: English / spring config test2244567dfed
 
 ---
 spring: 
