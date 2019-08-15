@@ -12,13 +12,13 @@ spring:
     hibernate: 
       ddl-auto: update
  
-greetingLanguage: English / spring config test567dfed
+greetingLanguage: English / spring config test0816
 
 ---
 spring: 
   profiles: dev
-greetingLanguage: French
+greetingLanguage: French0816
 ---
 spring: 
   profiles: prod
-greetingLanguage: Spanish
+greetingLanguage: Spanish0816
