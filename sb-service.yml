@@ -3,22 +3,22 @@ management:
     web:
       exposure:
         include: "*"
- 
-spring: 
-  jpa: 
-    properties: 
-      hibernate: 
+
+spring:
+  jpa:
+    properties:
+      hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
-    hibernate: 
+    hibernate:
       ddl-auto: update
- 
-greetingLanguage: English / spring config test0816
+
+greetingLanguage: English / spring config test08161
 
 ---
-spring: 
+spring:
   profiles: dev
 greetingLanguage: French0816
 ---
-spring: 
+spring:
   profiles: prod
 greetingLanguage: Spanish0816
