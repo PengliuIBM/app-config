@@ -17,7 +17,7 @@ greetingLanguage: English / spring config test08161
 ---
 spring:
   profiles: dev
-greetingLanguage: French0816
+greetingLanguage: French08167
 ---
 spring:
   profiles: prod
