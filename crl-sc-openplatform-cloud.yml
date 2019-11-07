@@ -1,0 +1,25 @@
+spring:
+  application:
+    tag: kfpt
+cn:
+  crl:
+    ws:
+      config:
+        webServiceNameMaps:
+          HelloWorldClient_Name: cn.crl.sc.openplatform.infrastructure.brokers.IHelloWorld
+          HelloClient_Name: cn.crl.sc.openplatform.infrastructure.brokers.IHelloWorld
+          BlxzClient_Name: cn.crl.sc.openplatform.infrastructure.brokers.IBlxzWebService
+          DzwzClient_Name: cn.crl.sc.openplatform.infrastructure.brokers.IDzwzWebService   
+          AutoCheckClient_Name: cn.crl.sc.openplatform.infrastructure.brokers.AutoCheckWebServiceSoap
+          TbInfoClient_Name: cn.crl.sc.openplatform.infrastructure.brokers.ITbInformationRestrictionWebService
+          GlblxzClient_Name: cn.crl.sc.openplatform.infrastructure.brokers.GlblxzWebService
+        webServiceUrlMaps:
+          HelloWorldClient_Url: http://127.0.0.1:6644/sayhello?wsdl
+          HelloClient_Url: http://127.0.0.1:6644/sayhello
+          BlxzClient_Url: http://127.0.0.1:6644/verifyBlxz?wsdl
+          DzwzClient_Url: http://127.0.0.1:8080/getDzwzContract?wsdl
+          AutoCheckClient_Url: http://127.0.0.1:8080/checkSign?wsdl
+          TbInfoClient_Url: http://127.0.0.1:8080/checkWhetherRestriction?wsdl
+          GlblxzClient_Url: http://127.0.0.1:8080/isGjdg?wsdl
+foo: updated
+
